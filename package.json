@@ -1,0 +1,25 @@
+{
+  "name": "node-wechat-express",
+  "version": "1.0.0",
+  "description": "按照课程学习express、以及在微信中的相关使用方法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammffl/node-wechat-express.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Sam.Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammffl/node-wechat-express/issues"
+  },
+  "homepage": "https://github.com/sammffl/node-wechat-express#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
