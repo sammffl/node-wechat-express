@@ -1,0 +1,23 @@
+{
+  "name": "node-wechat-express",
+  "description": "按照课程学习express、以及在微信中的相关使用方法",
+  "main": "app.js",
+  "authors": [
+    "Sam.Shen"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "express"
+  ],
+  "homepage": "https://github.com/sammffl/node-wechat-express",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

@@ -7,15 +7,20 @@
 // }, false);
 
 
+function formatNum(num) {
+    return num.toString().length < 2 ? 0 + '' + num : num;
+}
+
 tick(function () {
 
     var date = new Date();
     var year = date.getFullYear();
-    var month = date.getMonth() + 1;
-    var day = date.getDate();
-    var hours = date.getHours();
-    var minutes = date.getMinutes();
-    var seconds = date.getSeconds();
-    
-    document.st ('#devicemotion').innerHTML = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+    var month = formatNum(date.getMonth() + 1);
+    var day = formatNum(date.getDate());
+    var hours = formatNum(date.getHours());
+    var minutes = formatNum(date.getMinutes());
+    var seconds = formatNum(date.getSeconds());
+
+    document.querySelector('#devicemotion').innerHTML = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 });
+
