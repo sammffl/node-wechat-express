@@ -17,5 +17,5 @@ tick(function () {
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
     
-    document.querySelector('#devicemotion').innerHTML = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+    document.st ('#devicemotion').innerHTML = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 });
